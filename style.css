@@ -19,6 +19,10 @@ html {
     margin-top: 10vh;
 }
 
+.partners {
+  margin-top: 10vh;
+}
+
 .add2 {
 	font-size: 1.02rem;
 	border-color: transparent;
@@ -66,12 +70,12 @@ ul {
   margin-left: 20px;
 }
 
-.add {
+
+.add, .invite-partner {
     font-size: 1.5rem;
     cursor: pointer;
     font-weight: 900;
     color: white;
-    background-color: #23a55a;
     border-radius: 40px;
     border-color: transparent;
     margin-top: 4vh;
@@ -80,9 +84,22 @@ ul {
     transition: background-color 0.3s ease;
 }
 
+.add {
+  background-color: #23a55a;
+}
+
+.invite-partner {
+  background-color: #9141ac;
+}
+
 .add:hover {
     background-color: #087636;
 }
+
+.invite-partner:hover {
+  background-color: #5f2b70;
+}
+
 
 * {
     margin: auto;
