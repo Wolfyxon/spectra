@@ -63,6 +63,11 @@ ul {
   margin-left: 20px;
 }
 
+a { 
+    color: white;
+    font-weight: bold;
+}
+
 .lol2 {
   margin-left: 2.8vw;
 }
@@ -201,6 +206,7 @@ svg {
 
 .sidebar nav ul li a {
     color: white;
+    font-weight: normal;
     text-decoration: none;
     font-size: 20px;
 }
